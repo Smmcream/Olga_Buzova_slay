@@ -1,0 +1,124 @@
+body {
+    background-color: #ffebf3;
+    font-family: 'Marck Script', cursive;
+    color: #d23369;
+    text-align: center;
+    padding: 20px;
+    background-image: url('https://i.imgur.com/5zJgYlW.png');
+    background-size: cover;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(210, 51, 105, 0.3);
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.intro {
+    font-size: 1.3em;
+    margin-bottom: 30px;
+}
+
+#generateBtn {
+    background-color: #ff66b2;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: 'Marck Script', cursive;
+    transition: all 0.3s;
+    box-shadow: 0 4px 8px rgba(210, 51, 105, 0.3);
+}
+
+#generateBtn:hover {
+    background-color: #d23369;
+    transform: scale(1.05);
+}
+
+.quote {
+    margin: 30px auto;
+    font-size: 1.5em;
+    line-height: 1.5;
+    min-height: 100px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+}
+
+.footer {
+    margin-top: 40px;
+    font-size: 1.2em;
+}
+
+/* Мобильный адаптив */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+        background-image: none;
+        background-color: #ffebf3;
+    }
+
+    .container {
+        padding: 20px;
+        border-radius: 15px;
+        margin: 10px;
+        width: auto;
+    }
+
+    h1 {
+        font-size: 1.8em;
+        margin-bottom: 15px;
+    }
+
+    .intro {
+        font-size: 1.1em;
+        margin-bottom: 20px;
+    }
+
+    #generateBtn {
+        padding: 12px 25px;
+        font-size: 1em;
+    }
+
+    .quote {
+        font-size: 1.3em;
+        padding: 15px;
+        min-height: 80px;
+        margin: 20px auto;
+    }
+
+    .footer {
+        font-size: 1em;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .intro {
+        font-size: 1em;
+    }
+
+    .quote {
+        font-size: 1.1em;
+        padding: 10px;
+    }
+
+    #generateBtn {
+        padding: 10px 20px;
+    }
+}
